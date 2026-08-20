@@ -13,7 +13,7 @@ terraform {
 
   backend "s3" {
     bucket       = "bootcamp-2026-aishahzahirun"
-    key          = "/terraform.tfstate"
+    key          = "prometheus1/terraform.tfstate"
     region       = "ap-southeast-1"
     use_lockfile = true
   }
